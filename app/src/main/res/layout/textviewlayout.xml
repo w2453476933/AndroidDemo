@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="70dp"
+		android:text="跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯"
+		android:singleLine="true"
+		android:ellipsize="marquee"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		android:layout_margin="20dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="文字阴影"
+		android:layout_margin="20dp"
+		android:textSize="26sp"
+		android:shadowColor="#D12147"
+		android:shadowDx="10"
+		android:shadowDy="10"
+		android:shadowRadius="7"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="电话:138745612334，邮箱:2453476355@qq.com，网址:www.hao123.com"
+		android:singleLine="true"
+		android:autoLink="all"
+		android:textSize="11sp"
+		android:layout_marginLeft="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="电话:138745612334，邮箱:2453476355@qq.com，网址:www.hao123.com"
+		android:singleLine="true"
+		android:autoLink="phone|email"
+		android:textSize="11sp"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
+

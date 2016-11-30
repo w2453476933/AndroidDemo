@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycompany.demo" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity
+			android:name=".PpiCalculatorActivity"
+			android:label="@string/ppicalculator"/>
+		<activity
+			android:name=".ListViewActivity"
+			android:label="@string/listview"/>
+		<activity
+			android:name=".SwitchActivity"
+			android:label="@string/togglebutton"/>
+		<activity
+			android:name=".ImageViewActivity"
+			android:label="@string/imageview"/>
+		<activity
+			android:name=".ButtonActivity"
+			android:label="@string/button"/>
+		<activity
+			android:name=".SimpleCalculatorActivity"
+			android:label="@string/simplecalculator"/>
+		<activity
+			android:name=".EditTextActivity"
+			android:label="@string/edittext"/>
+		<activity
+			android:name=".TextViewActivity"
+			android:label="@string/textview"/>
+		<activity
+			android:name=".CheckBoxActivity"
+			android:label="@string/checkbox"/>
+		<activity
+			android:name=".RadioButtonActivity"
+			android:label="@string/radiobutton"/>
+	</application>
+
+</manifest>

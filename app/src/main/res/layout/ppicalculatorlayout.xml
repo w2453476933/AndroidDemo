@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<TableLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="wrap_content"
+				android:text="请输入屏幕尺寸:"
+				android:gravity="center"
+				android:textSize="16sp"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:id="@+id/ScreenSizeEdt"
+				android:numeric="decimal"
+				android:ems="12"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="wrap_content"
+				android:text="请输入横向分辨率:"
+				android:gravity="fill_vertical"
+				android:textSize="16sp"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:id="@+id/HorPpiEdt"
+				android:numeric="integer"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="wrap_content"
+				android:text="请输入纵向分辨率:"
+				android:gravity="center"
+				android:textSize="16sp"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:id="@+id/VerPpiEdt"
+				android:numeric="integer"/>
+
+		</TableRow>
+
+		<TextView
+			android:layout_height="36dp"
+			android:layout_width="fill_parent"
+			android:text="屏幕PPI为:"
+			android:textSize="18sp"
+			android:id="@+id/PpiText"
+			android:gravity="center_vertical"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="计算"
+			android:id="@+id/DoBtn"
+			android:textSize="30sp"/>
+
+	</TableLayout>
+
+</LinearLayout>
+

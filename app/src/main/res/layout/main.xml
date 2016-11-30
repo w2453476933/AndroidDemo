@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="horizontal">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="PPI计算器"
+			android:layout_margin="5dp"
+			android:onClick="startPpiCalculatorActivity"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="简易计算器"
+			android:layout_margin="5dp"
+			android:onClick="startSimpleCalculatorActivity"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="按钮示例"
+			android:layout_margin="5dp"
+			android:onClick="startButtonActivity"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="输入框示例"
+			android:layout_margin="5dp"
+			android:onClick="startEditTextActivity"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="文本框示例"
+			android:layout_margin="5dp"
+			android:onClick="startTextViewActivity"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="多选框示例"
+			android:layout_margin="5dp"
+			android:onClick="startCheckBoxActivity"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="单选框示例"
+			android:layout_margin="5dp"
+			android:onClick="startRadioButtonActivity"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="开关示例"
+			android:layout_margin="5dp"
+			android:onClick="startSwitchActivity"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="列表视图"
+			android:layout_margin="5dp"
+			android:onClick="startListViewActivity" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="图片视图"
+			android:layout_margin="5dp"
+			android:onClick="startImageViewActivity" />
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Button"
+			android:layout_margin="5dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Button"
+			android:layout_margin="5dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Button"
+			android:layout_margin="5dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Button"
+			android:layout_margin="5dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Button"
+			android:layout_margin="5dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Button"
+			android:layout_margin="5dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Button"
+			android:layout_margin="5dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Button"
+			android:layout_margin="5dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

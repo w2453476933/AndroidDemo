@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/radioGroup1">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="1、你玩英雄联盟几年了？"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="A：2年"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="B：3年"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="C：4年"/>
+
+	</RadioGroup>
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/radioGroup2">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="2、你认为英雄联盟中哪个ADC最强？"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="A：薇恩"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="B：女警"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="C：奥巴马"/>
+
+	</RadioGroup>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/radioGroupTextView"/>
+
+</LinearLayout>
+

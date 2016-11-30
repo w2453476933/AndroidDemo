@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:hint="名字输入框"
+		android:id="@+id/edtName"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textPostalAddress"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:hint="地址输入框"
+		android:id="@+id/edtAddress"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="phone"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:hint="电话输入框"
+		android:id="@+id/edtPhone"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textEmailAddress"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:hint="邮箱输入框"
+		android:id="@+id/edtEmail"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:hint="密码输入框"
+		android:id="@+id/edtPassword"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="确认输入"
+		android:id="@+id/getEdtResult"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:hint="普通输入框"/>
+
+</LinearLayout>
+

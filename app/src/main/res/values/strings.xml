@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">安卓组件示例</string>
+    <string name="ppicalculator">PPI计算器</string>
+	<string name="button">按钮示例</string>
+	<string name="simplecalculator">简易计算器</string>
+    <string name="edittext">输入框示例</string>
+	<string name="textview">文本框示例</string>
+	<string name="togglebutton">开关示例</string>
+	<string name="checkbox">复选框示例</string>
+	<string name="radiobutton">单选框示例</string>
+	<string name="imageview">图片示例</string>
+	<string name="listview">列表视图</string>
+	<string name="c">复选框示例</string>
+	<string name="r">单选框示例</string>
+</resources>
